@@ -19,7 +19,7 @@ def update_plot():
     ax.axhline(0, color="black", linewidth=0.5)
     ax.axvline(0, color="black", linewidth=0.5)
 
-    # Plot p0 in red and p1 in blue
+    # Plot p0 and p1
     pair = np.array([p0, p1])
     ax.plot(pair.real, pair.imag, "ko", label=r"$p_0, p_1$")
 
